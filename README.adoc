@@ -1,20 +1,3 @@
 = README
 
-A playground to apply bash script fundamentals.
-
-== Basics
-* Getting started
-* Variables and scope
-* Positional parameters
-* The `return` - builtin
-* Exit codes
-* Functions
-* Arrays
-
-== Commands and builtin's
-* The `source` - builtin
-* The `export` - builtin
-* The `test` - command
-
-== Misc
-* Bash variables
+A collection of bash snippets
