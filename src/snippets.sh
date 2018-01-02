@@ -61,6 +61,14 @@ delete_file_or_folder(){
   fi
 }
 
+check_is_64_bit_architecture(){
+  local arch=$(uname -m)
+  if [[ "${#arch}" -eq 0 ]] || [[ "${arch}" != "x86_64" ]]; then
+    echo "FATAL: Unsupported architecture detected: '${arch}' !!!"
+    exit 1
+  fi
+}
+
 ##############
 # TEST DRIVE #
 ##############
