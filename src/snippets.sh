@@ -69,6 +69,10 @@ check_is_64_bit_architecture(){
   fi
 }
 
+to_lower_case(){
+  echo "$1" | awk '{print tolower($0)}'
+}
+
 ##############
 # TEST DRIVE #
 ##############
